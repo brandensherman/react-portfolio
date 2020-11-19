@@ -1,6 +1,4 @@
 import React from 'react';
-import ritual from '../images/ritual.png';
-import spritelab from '../images/spritelab.png';
 import Project from './Project';
 import firstrow from '../projects/firstrow';
 import secondrow from '../projects/secondrow';

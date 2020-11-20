@@ -95,7 +95,6 @@ li {
 
 .home-image {
   border: 1px solid var(--secondary-color);
-
   width: 24rem;
 }
 
@@ -136,10 +135,15 @@ li {
     margin-bottom: 3rem;
   }
 
+  .home-image {
+    border: 1px solid var(--secondary-color);
+    width: 30rem;
+  }
+
   .home-project-info {
     color: var(--primary-color);
     padding: 1rem 1rem;
-    width: 400px;
+    width: 475px;
   }
 
   .home-project:first-child {
@@ -148,14 +152,27 @@ li {
   }
 }
 
-@media only screen and (max-device-width: 500px) {
+@media only screen and (max-width: 670px) {
   .home-project-info {
     color: var(--primary-color);
     padding: 1rem 1rem;
-    width: 250px;
+    width: 400px;
   }
 
   .home-image {
-    width: 18rem;
+    width: 24rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home-project-info {
+    color: var(--primary-color);
+    padding: 1rem 1rem;
+    font-size: 0.9rem;
+    width: 280px;
+  }
+
+  .home-image {
+    width: 16rem;
   }
 }

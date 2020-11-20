@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from './Project';
-import firstrow from '../projects/firstrow';
-import secondrow from '../projects/secondrow';
+import firstrow from '../data/firstrow';
+import secondrow from '../data/secondrow';
 
 const Home = () => {
   return (

@@ -7,6 +7,7 @@
 :root {
   --primary-color: #4d4f7c;
   --secondary-color: #f0f0f0;
+  --hover-opacity: 0.8;
 }
 
 body {
@@ -51,7 +52,7 @@ li {
 }
 
 .nav-item:hover {
-  opacity: 0.9;
+  opacity: var(--hover-opacity);
 }
 
 /* HOME */
@@ -99,6 +100,24 @@ li {
 .home-project-title {
   font-size: 1.1rem;
   font-weight: 600;
+}
+
+.home-project-links {
+  padding-top: 0.2rem;
+}
+
+.home-projects-link {
+  border-bottom: 1px solid var(--primary-color);
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.home-projects-link:first-child {
+  margin-right: 1rem;
+}
+
+.home-projects-link:hover {
+  opacity: var(--hover-opacity);
 }
 
 @media only screen and (max-width: 1024px) {

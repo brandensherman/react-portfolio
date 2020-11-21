@@ -82,6 +82,7 @@ li {
 }
 
 .home-project {
+  background-color: #fff;
   border: 1px solid var(--secondary-color);
   display: flex;
   flex-direction: column;

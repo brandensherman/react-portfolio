@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Projects = (props) => {
-  console.log(props);
   const { image, title, deployedUrl, description, githubUrl } = props.project;
+
   return (
     <>
       <div className='home-project'>

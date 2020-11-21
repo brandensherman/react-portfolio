@@ -7,7 +7,7 @@ const data = [
     deployedUrl: 'https://brandensherman.github.io/robinsons-ice-cream/',
     githubUrl: 'https://github.com/brandensherman/robinsons-ice-cream',
     title: `Robinson's Ice Cream`,
-    description: `A responsive homepage for Robinson's Ice Cream.`,
+    description: `A responsive homepage and logo created for Robinson's Ice Cream.`,
   },
   {
     image: spritelab,

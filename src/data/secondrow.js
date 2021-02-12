@@ -14,8 +14,7 @@ const data = [
     deployedUrl: 'https://spritelab.herokuapp.com/',
     githubUrl: 'https://github.com/brandensherman/spritelab',
     title: 'SpriteLab',
-    description:
-      'SpriteLab is a real-time, collaborative web application for creating animated sprites and pixel art.',
+    description: 'SpriteLab is a web app for creating pixel art.',
   },
 ];
 

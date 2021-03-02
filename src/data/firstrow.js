@@ -1,5 +1,5 @@
-import ritual from '../images/ritual.png';
-import postman from '../images/postman.jpg';
+import ritual from '../images/ritual.png'
+import robinsons from '../images/robinsons.png'
 
 const data = [
   {
@@ -10,13 +10,14 @@ const data = [
     description:
       'Ritual Records is an eCommerce platform with a full featured shopping cart.',
   },
-  {
-    image: postman,
-    deployedUrl: 'https://www.youtube.com/watch?v=0R-FuchGdTY',
-    title: 'Postman 101',
-    description:
-      'A video tutorial on how to set up collections and variables in Postman in order to more efficiently build and test an API.',
-  },
-];
 
-export default data;
+  {
+    image: robinsons,
+    deployedUrl: 'https://brandensherman.github.io/robinsons-ice-cream/',
+    githubUrl: 'https://github.com/brandensherman/robinsons-ice-cream',
+    title: `Robinson's Ice Cream`,
+    description: `A responsive homepage and logo created for Robinson's Ice Cream.`,
+  },
+]
+
+export default data
